@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DublicateContains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StringCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TreeNode.java" afterDir="false" />
+    <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="leetcode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GenericMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,7 +48,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BadVersion">
+  <component name="RunManager" selected="Application.GenericMap">
     <configuration name="BadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BadVersion" />
       <module name="LEETCODE" />
@@ -72,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Node" />
+    <configuration name="GenericMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GenericMap" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BadVersion" />
+        <item itemvalue="Application.GenericMap" />
         <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.BadVersion" />
         <item itemvalue="Application.TreeNode" />
         <item itemvalue="Application.StringCommonPrefix" />
-        <item itemvalue="Application.Node" />
       </list>
     </recent_temporary>
   </component>
@@ -149,8 +139,17 @@
       <workItem from="1661968056574" duration="3688000" />
       <workItem from="1662064383177" duration="1336000" />
       <workItem from="1662127528832" duration="1962000" />
-      <workItem from="1662216026316" duration="5717000" />
+      <workItem from="1662216026316" duration="6754000" />
+      <workItem from="1662223556737" duration="4958000" />
     </task>
+    <task id="LOCAL-00001" summary="leetcode">
+      <created>1662222667110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662222667110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +165,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,23 +210,58 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseString.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseString.java</url>
-          <line>12</line>
+          <line>15</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseString.java</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/BadVersion.java</url>
           <line>7</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ReverseString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java</url>
+          <line>1245</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/util/ComparableTimSort.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/util/ComparableTimSort.java</url>
+          <line>313</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/util/ComparableTimSort.java</url>
+          <line>339</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/util/ComparableTimSort.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/GenericMap.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
