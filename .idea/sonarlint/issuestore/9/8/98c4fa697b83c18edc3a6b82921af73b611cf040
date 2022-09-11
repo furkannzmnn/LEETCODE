@@ -1,0 +1,8 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ïã¥úûÿÿÿÿ
+K
+java:S1751"5Remove this "break" statement or make it conditional.(›ûä·
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(­€Øüÿÿÿÿ
+D
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›
