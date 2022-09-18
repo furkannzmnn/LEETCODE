@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Polindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidParanthes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Reverseddigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ValidParanthes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidParanthes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "TF_FMT": "false",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ValidParanthes">
+}</component>
+  <component name="RunManager" selected="Application.Reverseddigit">
     <configuration name="Bfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Bfs" />
       <module name="LEETCODE" />
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Subsequence" />
+    <configuration name="Reverseddigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Reverseddigit" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reverseddigit" />
         <item itemvalue="Application.ValidParanthes" />
         <item itemvalue="Application.Polindrome" />
         <item itemvalue="Application.Bfs" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Subsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +155,9 @@
       <workItem from="1662923625236" duration="92000" />
       <workItem from="1662923788713" duration="588000" />
       <workItem from="1663504496241" duration="10145000" />
+      <workItem from="1663524959379" duration="1253000" />
+      <workItem from="1663528022408" duration="123000" />
+      <workItem from="1663529588237" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1662222667110</created>
@@ -191,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663504530568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="leetcode">
+      <created>1663525024204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663525024204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

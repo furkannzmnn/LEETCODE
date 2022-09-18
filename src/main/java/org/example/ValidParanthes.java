@@ -10,6 +10,7 @@ public class ValidParanthes {
         final Map<Character, Character> map = Map.of(')', '(', '}', '{', ']', '[');
         for (int i = 0; i < s.length(); i++) {
             final char c = s.charAt(i);
+            // { [ ( ) ] }
             if (map.containsKey(c)) {
                 if (stack.isEmpty() || stack.pop() != map.get(c)) {
                     return false;
@@ -23,7 +24,7 @@ public class ValidParanthes {
 
     public static void main(String[] args) {
         final ValidParanthes validParanthes = new ValidParanthes();
-        System.out.println(validParanthes.isValid("()"));
+        System.out.println(validParanthes.isValid("{ [ ( ) ] }"));
     }
 
 }
