@@ -1,9 +1,5 @@
 package org.example;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-
 public class ListNode {
     int val;
     ListNode next;
@@ -31,6 +27,12 @@ public class ListNode {
     }
 
     public ListNode middleNode(ListNode head) {
-      return head;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
     }
 }
