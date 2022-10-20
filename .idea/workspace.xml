@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Atoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DublicateSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NimGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/NonRepeatString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/NonRepeatArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NonRepeatString">
+  <component name="RunManager" selected="Application.OnePlus">
     <configuration name="DublicateSortedList$ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DublicateSortedList$ListNode" />
       <module name="LEETCODE" />
@@ -75,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FindMax" />
+    <configuration name="NonRepeatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.NonRepeatString" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.top_interviewQA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeatString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.NonRepeatString" />
+    <configuration name="OnePlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.OnePlus" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnePlus" />
         <item itemvalue="Application.NonRepeatString" />
         <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.PerfectSquare" />
         <item itemvalue="Application.DublicateSortedList$ListNode" />
-        <item itemvalue="Application.FindMax" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +166,8 @@
       <workItem from="1665943978981" duration="4098000" />
       <workItem from="1666030399795" duration="4076000" />
       <workItem from="1666117062569" duration="5271000" />
-      <workItem from="1666202980511" duration="1957000" />
+      <workItem from="1666202980511" duration="3079000" />
+      <workItem from="1666289754979" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1662222667110</created>
@@ -226,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663530226958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="leetcode">
+      <created>1666205206125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666205206125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,8 +421,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/NonRepeatString.java</url>
-          <line>17</line>
+          <line>13</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/NonRepeatString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
