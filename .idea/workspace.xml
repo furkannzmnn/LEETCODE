@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/NonRepeatArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1666030399795" duration="4076000" />
       <workItem from="1666117062569" duration="5271000" />
       <workItem from="1666202980511" duration="3079000" />
-      <workItem from="1666289754979" duration="2351000" />
+      <workItem from="1666289754979" duration="11281000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1662222667110</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666205206125</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="leetcode">
+      <created>1666292736843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666292736843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,13 +437,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="124" />
+          <line>27</line>
+          <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="125" />
+          <line>28</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/OnePlus.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

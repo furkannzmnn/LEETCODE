@@ -6,27 +6,22 @@ import java.util.Locale;
 public class OnePlus { // 3, 9 9,
 
     public int[] plusOne(int[] digits) {
-
-        StringBuilder builder = new StringBuilder();
-        long number;
-        for (int i = 0; i < digits.length; i++) {
-            if (i == digits.length - 1) {
-                final int current = digits[i];
-            }
-            builder.append(digits[i]).append(",");
+        int[] result = new int[digits.length + 1];
+        int carry = 1;
+        for (int i = digits.length - 1; i >= 0; i--) {
+            int sum = digits[i] + carry;
+            result[i + 1] = sum % 10;
+            carry = sum / 10;
         }
-        final long i = Long.parseLong(builder.toString().replaceAll(",", ""));
-        number = i + 1;
-        final String[] split = String.valueOf(number).split("");
-        int[] result = new int[split.length];
-        for (int j = 0; j < split.length; j++) {
-            result[j] = Integer.parseInt(split[j]);
+        if (carry == 1) {
+            result[0] = 1;
+            return result;
         }
-        return result;
+        return Arrays.copyOfRange(result, 1, result.length);
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new OnePlus().solution(new int[]{9,8,7,6,5,4,3,2,1,9})));
+        System.out.println(Arrays.toString(new OnePlus().solution(new int[]{1,2,34,5,6,6,77,7,77,7,7,7})));
     }
 
     public int[] solution(int[] digits) {
