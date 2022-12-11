@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/SortColors.java" afterDir="false" />
+    <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="sort color">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/Distcnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/ListNodeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/MinWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,10 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortColors">
+  <component name="RunManager" selected="Application.Distcnit">
     <configuration name="Chare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Chare" />
       <module name="LEETCODE" />
@@ -74,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Climbing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Climbing" />
+    <configuration name="Distcnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Distcnit" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Majority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Majority" />
+    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.MinWindow" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Distcnit" />
+        <item itemvalue="Application.MinWindow" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Chare" />
-        <item itemvalue="Application.Majority" />
-        <item itemvalue="Application.Climbing" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,7 @@
       <workItem from="1666437329917" duration="3581000" />
       <workItem from="1666721855640" duration="4083000" />
       <workItem from="1666809658207" duration="1418000" />
-      <workItem from="1670771986376" duration="1057000" />
+      <workItem from="1670771986376" duration="6370000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1662222667110</created>
@@ -266,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666724583688</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="sort color">
+      <created>1670773301940</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670773301940</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +298,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
+    <MESSAGE value="sort color" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -514,11 +528,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/Palindrome.java</url>
           <line>7</line>
           <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/SortColors.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
