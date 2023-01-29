@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5e4bc5-7398-43f3-a4cc-0548fc555a98" name="Changes" comment="sort color">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/Distcnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/ListNodeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/MinWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/MaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/top_interviewQA/SimilarStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,6 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.14.1/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,28 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "TF_FMT": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/furkanozmen/Desktop/LEETCODE",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3908046",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/furkanozmen/Downloads/projelerim/LEETCODE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3908046&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Distcnit">
-    <configuration name="Chare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Chare" />
+}</component>
+  <component name="RunManager" selected="Application.MaxArray">
+    <configuration name="Distcnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Distcnit" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Distcnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Distcnit" />
+    <configuration name="MaxArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.MaxArray" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.Palindrome" />
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.top_interviewQA.MyQueue" />
       <module name="LEETCODE" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxArray" />
+        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.Distcnit" />
         <item itemvalue="Application.MinWindow" />
         <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Chare" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +184,8 @@
       <workItem from="1666721855640" duration="4083000" />
       <workItem from="1666809658207" duration="1418000" />
       <workItem from="1670771986376" duration="6370000" />
+      <workItem from="1674939741935" duration="1937000" />
+      <workItem from="1674980553916" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1662222667110</created>
